@@ -1,4 +1,4 @@
-#作业2：Triangles and Z-buffering
+# 作业2：Triangles and Z-buffering
 
 1. 实现三角形栅格化算法。
 2. 测试点是否在三角形内。
