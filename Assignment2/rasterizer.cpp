@@ -54,7 +54,7 @@ static bool insideTriangle(float x, float y, const Vector3f* _v)
     float cross2 = BP[0] * BC[1] - BP[1] * BC[0];
     float cross3 = CP[0] * CA[1] - CP[1] * CA[0];
 
-    if ((cross1 >= 0 && cross2 >= 0 && cross3 >= 0) || (cross1 <= 0 && cross2 <= 0 && cross3 <= 0))
+    if (cross1 <= 0 && cross2 <= 0 && cross3 <= 0)
         return true;
 
     return false;
