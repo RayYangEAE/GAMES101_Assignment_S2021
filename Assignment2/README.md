@@ -4,3 +4,5 @@
 2. 测试点是否在三角形内。
 3. 实现z-buffer算法，按顺序正确绘制三角形。
 4. 用super-sampling处理反走样问题。
+
+![image](https://github.com/RayYangEAE/GAMES101_Assignment_S2021/blob/master/Assignment2/output.png)
